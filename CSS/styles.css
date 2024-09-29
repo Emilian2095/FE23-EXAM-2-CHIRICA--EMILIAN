@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 90vw;
+    margin: 0 auto;
+    background-color: #d9d7ca;
+}
+.container{
+    border: 1px solid blue;
+    width: 80vws;
+}
+
+.fa-bell{
+    padding: 1rem;
+}
+.navbar{
+    background-color: #c5aa6a;
+}
+.planner{
+   position: relative;  
+}
+.planner img{
+    width: 100%;
+    height: 30rem;
+   
+}
+.planner p{
+    position: absolute;
+    background-color:#d9d7ca5b ;
+    bottom: 10%;
+    right: 5%;
+    font-size: 5rem;
+    font-family: sans-serif;
+    padding: 2rem;
+}
+.weekly-tasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+ .weekly-tasks p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .sortReset{
+ display: flex;
+ justify-content: space-between;
+ }
+ .sort-btn{
+    padding: .4rem;
+    padding-inline: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px grey;
+ }
+ .reset-btn{
+    padding: .4rem;
+    padding-inline: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgba(255, 99, 71, 0.692);
+    box-shadow: 5px 5px 5px grey;
+ }
+ /* from here i have the cards */
+ #output-cards{
+  width: 80%;
+  margin: 10px auto;
+ }
+  .card {
+    margin-bottom: 1.5rem;
+    box-shadow: -10px 10px 10px grey;
+    max-width: 450px;
+  }
+ 
+  .upCard{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+  }
+  .upCard p{
+    background-color: lightsalmon;
+    border-radius: 5px;
+    padding-inline: .5rem;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  .upCard i {
+    margin-inline: .5rem;
+  }
+  .twoBtn{
+    display: flex;
+    justify-content: end;
+  }
+  .twoBtn button{
+    margin-inline: .5rem;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+  .twoBtn i{
+    margin-right: .3rem;
+  }
+  .midParagraph{
+    font-weight: 500;
+  }
+  .card img{
+    width: 100%;
+    height: 250px;
+  }
+/* frpm here i have the footer */
+
+  footer{
+    margin-top: 20px;
+   
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.39);
+ }
+ footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+ }
+ footer ul li{
+    list-style: none;
+    padding: .5rem;
+    font-size: 1.2rem;
+ }
+ footer ul li i{
+    color: white;
+    border: 1px solid white;
+    padding: .2rem;
+ }
+ .newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    
+ }
+ #email{
+    margin-inline: 1rem;
+ 
+ }
+  .newsletter button{
+    padding-inline: .5rem;
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.596);
+  }
+  footer p {
+    text-align: center;
+    padding-top: 1rem;
+    color: whitesmoke;
+  }
