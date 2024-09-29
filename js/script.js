@@ -153,7 +153,7 @@ function sortCards() {
     sortBtn.addEventListener("click", () =>{
         const comparePriority = (a, b) => a.priority - b.priority;
         const sortByPriority = cards.sort(comparePriority); 
-        console.log(sortByPriority);
+      
         
        let sortedCardsHTML = sortByPriority.map(cards =>{
        // here i tried to call the showCards function but didnt worked because of the for of loop 
