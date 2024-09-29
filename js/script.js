@@ -165,7 +165,7 @@ function sortCards() {
   <div class="card-body">
     <h5 class="card-title">${cards.title}</h5>
     <p>${cards.description}.</p><hr>
-    <p class="midParagraph"><i class="fa-solid fa-triangle-exclamation"></i> Priority level: <span class="result bg-success p-1">${cards.priority}</span></p>
+    <p class="midParagraph"><i class="fa-solid fa-triangle-exclamation"></i> Priority level:<span class="result bg-success p-1">${cards.priority}</span></p>
     <p class="midParagraph"><i class="fa-solid fa-location-dot"></i> Location: <span class="text-info">${cards.place}</span></p><hr>
     <div class="twoBtn"><button class="deleteBtn bg-danger"><i class="fa-regular fa-trash-can"></i>Less important</button>
     <button class=" doneBtn bg-success"><i class="fa-regular fa-circle-check"></i>Importance</button></div>
