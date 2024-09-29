@@ -175,6 +175,7 @@ function sortCards() {
  `}).join("") ;
  
 //  and here to call colorChange() to update the .result color and didnt worked 
+// and didnt found a solution after sorting the list to keep the colors
   output.innerHTML = sortedCardsHTML;
 });
 }
